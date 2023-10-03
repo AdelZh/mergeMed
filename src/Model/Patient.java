@@ -14,6 +14,7 @@ public class Patient {
         this.lastName = lastName;
         this.age = age;
         this.gender = gender;
+
     }
 
     public static int getId() {
@@ -27,10 +28,11 @@ public class Patient {
     public int getInstanceId() {
         return instanceId;
     }
+
+
     public int getAge() {
         return age;
     }
-
 
 
     @Override
