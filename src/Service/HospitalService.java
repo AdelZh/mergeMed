@@ -1,8 +1,14 @@
 package Service;
 
+import Model.Hospital;
+import Model.Patient;
+
+import java.util.List;
+import java.util.Map;
+
 public interface HospitalService {
 
-    /*String addHospital(Hospital hospital);
+    String addHospital(Hospital hospital);
 
     Hospital findHospitalById(Long id);
 
@@ -14,5 +20,5 @@ public interface HospitalService {
 
     Map<String, Hospital> getAllHospitalByAddress(String address);
 
-     */
+
 }

@@ -8,7 +8,7 @@ import java.util.Map;
 
 public interface HospitalDao {
 
-    /*String addHospital(Hospital hospital);
+    String addHospital(Hospital hospital);
 
     Hospital findHospitalById(Long id);
 
@@ -20,5 +20,5 @@ public interface HospitalDao {
 
     Map<String, Hospital> getAllHospitalByAddress(String address);
 
-     */
+
 }
