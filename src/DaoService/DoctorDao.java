@@ -5,7 +5,7 @@ import Model.Doctor;
 import java.util.List;
 
 public interface DoctorDao {
-    /*Doctor findDoctorById(Long id);
+    Doctor findDoctorById(Long id);
 
     String assignDoctorToDepartment(Long departmentId, List<Long> doctorsId);
 
@@ -15,5 +15,4 @@ public interface DoctorDao {
 
     String addDoctorToDepartment(Long id, List<Doctor> doctors);
 
-     */
 }
